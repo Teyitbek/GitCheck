@@ -1,9 +1,5 @@
-//
-//  AppDelegate.swift
-//  GitCheck
-//
-//  Created by Tiku on 11/2/23.
-//
+
+// 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
 
 import UIKit
 
