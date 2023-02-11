@@ -8,7 +8,7 @@ class ViewController: UIViewController {
         let b = UIButton(type: .system)
         b.backgroundColor = .black
         b.tintColor = .white
-        b.setTitle("Button", for: .normal)
+        b.setTitle("White", for: .normal)
         b.layer.cornerRadius = 10
         b.layer.masksToBounds = true
         b.titleLabel?.font = .boldSystemFont(ofSize: 15)
@@ -21,10 +21,12 @@ class ViewController: UIViewController {
             self.view.backgroundColor = .white
             b.backgroundColor = .black
             b.tintColor = .white
+            b.setTitle("White", for: .normal)
         } else {
             self.view.backgroundColor = .black
             b.backgroundColor = .white
             b.tintColor = .black
+            b.setTitle("Black", for: .normal)
         }
     }
 
@@ -43,5 +45,7 @@ class ViewController: UIViewController {
             b.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
+    // MARK: add new Button
+    
 }
 
