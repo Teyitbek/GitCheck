@@ -1,4 +1,5 @@
 // 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
+// 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
 
 import UIKit
 
@@ -46,6 +47,9 @@ class ViewController: UIViewController {
         ])
     }
     // MARK: add new Button
-    
 }
+
+/*
+ git restore .    - it's mean back to all changes till commit
+ */
 
